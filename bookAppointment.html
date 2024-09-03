@@ -1,0 +1,96 @@
+<html>
+  <head>
+    <title>Health care Services</title>
+    <link rel="icon" href="./icons8-clinic-48.png" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <img class="logo" src="./logo.png" />
+      </div>
+      <ul class="nav-right">
+        <li><a href="./index.html">Home</a></li>
+        <li>About</li>
+        <li>Medical Services</li>
+        <li>Book Appointment</li>
+        <li>Contact</li>
+      </ul>
+    </div>
+    <div class="box_book">
+      <div class="sign_form">
+        <h1>Book Appointment</h1>
+        <form>
+          <label class="label_book" for="Name">Patient Name</label>
+          <input
+            type="text"
+            class="input_book"
+            name="name"
+            id="Name"
+            placeholder=" Enter Name"
+            required
+          /><br /><br />
+          <label class="label_book" for="DOB">DOB</label>
+          <input
+            type="date"
+            class="input_book"
+            id="DOB"
+            name="date"
+            placeholder=" Enter Date of Birth"
+            required
+          /><br /><br />
+          <label class="label_book" for="DOB">Patient issue</label>
+          <textarea class="input_book" rows="10" cols="45" id="DOB"></textarea
+          ><br /><br />
+          <label class="label_book" for="DOB">Select Hospital branch</label>
+          <select class="input_book" id="DOB">
+            <option>Select</option>
+            <option>Hyderabad</option>
+            <option>Pune</option>
+            <option>Chennai</option>
+            <option>Delhi</option>
+          </select>
+          <br /><br />
+          <label class="label_book" for="Name">Doctor Specialist</label>
+          <select class="input_book" id="Name">
+            <option>Select</option>
+            <option>Hematology</option>
+            <option>Cardiology</option>
+            <option>Gastroenterology</option>
+            <option>Gynecology</option>
+          </select>
+          <br /><br />
+          <label class="label_book" for="DOB">Visit Date</label>
+          <input
+            type="date"
+            class="input_book"
+            id="DOB"
+            name="date"
+            required
+          /><br /><br />
+          <label class="label_book" for="Email">Email</label>
+          <input
+            type="email"
+            class="input_book"
+            id="Email"
+            name="email"
+            placeholder=" Enter your Email"
+            required
+          /><br /><br />
+          <label class="label_book" for="MN">Mobile Number</label>
+          <input
+            type="number"
+            class="input_book"
+            id="MN"
+            name="MN"
+            placeholder=" Enter Your Number"
+            required
+          /><br /><br />
+          <button class="button_book">
+            <a href="./confirmationPage.html">Book Appointment</a>
+          </button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
