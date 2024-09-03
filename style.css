@@ -1,31 +1,48 @@
 * {
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
 }
 .container {
   width: 100%;
   height: 100px;
   background-color: #00afff;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 40px;
 }
 
-.nav-right {
+/* .nav-right {
   margin-top: 28px;
-}
-ul li {
-  display: inline;
+} */
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   list-style-type: none;
-  margin: 25px;
-  font-size: 35px;
+  padding: 0px;
   font-weight: 700;
-  font-family: ui-sans-serif;
+  font-size: 2.8vw;
+  font-family: "ui-sans-serif";
   color: aliceblue;
+  height: 100%;
+  width: 90%;
 }
+.nav-option {
+  height: inherit;
+  margin: 0px 10px;
+  display: inline-flex;
+  align-items: center;
+}
+/* .nav-option:hover {
+  background-color: yellow;
+  color: yellow;!important
+}  */
 
 .logo {
-  width: 70px;
-  margin-top: 15px;
+  width: 6vw;
+  margin-right: 15px;
   background: black;
 }
 .sign_form {
@@ -172,11 +189,13 @@ p {
   background-color: whitesmoke;
   border-radius: 15px;
 }
-a:hover {
-  background-color: yellow;
-}
+
 a {
   text-decoration: none; /* Removes the underline */
   color: white; /* Optional: Change text color */
   font-weight: bold; /* Optional: Make text bold */
+}
+a:hover {
+  color: yellow !important;
+  transform: scale(1.2) !important;
 }
