@@ -148,10 +148,11 @@ p {
 .box_book {
   width: 800px;
   height: auto;
-  margin: auto;
   margin: 55px 55px;
   background-color: whitesmoke;
   border-radius: 15px;
+  position: absolute;
+  left: 230px;
 }
 .button_book {
   width: 200px;
@@ -169,6 +170,9 @@ p {
   border-radius: 5px;
   margin-top: 5px;
   margin-left: 40px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
 }
 
 .label_book {
@@ -192,7 +196,8 @@ p {
 
 a {
   text-decoration: none; /* Removes the underline */
-  color: white; /* Optional: Change text color */
+  color: white;
+  background-color: #00afff; /* Optional: Change text color */
   font-weight: bold; /* Optional: Make text bold */
 }
 a:hover {
